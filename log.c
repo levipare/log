@@ -2,6 +2,7 @@
 
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 static const char *levels[] = {"debug", "info", "warn", "error", "fatal"};
 
@@ -17,4 +18,7 @@ void _log(int level, const char *file, int line, const char *fmt, ...) {
     fputc('\n', stdout);
 
     va_end(args);
+
+    if (level == LOG_FATAL)
+        exit(1);
 }
