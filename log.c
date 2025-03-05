@@ -6,7 +6,7 @@
 
 static const char *levels[] = {"debug", "info", "warn", "error", "fatal"};
 
-static const int colors[] = {34, 32, 33, 31, 31};
+static const int colors[] = {34, 34, 33, 31, 31};
 
 void _log(int level, const char *file, int line, const char *fmt, ...) {
     va_list args;
