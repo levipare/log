@@ -1,7 +1,7 @@
 # Log
 Logging library for C
 
-![image](https://github.com/user-attachments/assets/05750eb8-9898-4d34-a5a4-9a284949ad1c)
+![preview image](https://github.com/user-attachments/assets/9e9b08ce-fd60-4604-a473-0c292864d232)
 
 ## Example Usage
 Use one of the following macros like you would use printf.
